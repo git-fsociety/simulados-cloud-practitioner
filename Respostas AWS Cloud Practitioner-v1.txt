@@ -1,0 +1,79 @@
+QUESTÃO 1 
+Resposta Correta: C 
+Explicação: O pilar Reliability do AWS Well-Architected Framework foca na capacidade de um sistema serecuperar de falhas e atender à demanda. Isso inclui proteção contra falhas de hardware através deredundância, backups automáticos e distribuição geográfica dos recursos. A AWS oferece múltiplasAvailability Zones e replicação automática para garantir a confiabilidade dos dados. 
+
+QUESTÃO 2 
+Resposta Correta: B 
+Explicação: AWS Lambda é um serviço de computação serverless que executa código em resposta aeventos sem necessidade de provisionar ou gerenciar servidores. Você paga apenas pelo tempo decomputação consumido. O Lambda escala automaticamente e gerencia toda a infraestrutura subjacente.
+
+QUESTÃO 3 
+Resposta Correta: B 
+Explicação: S3 Standard-IA (Infrequent Access) é ideal para dados acessados raramente mas queprecisam de acesso rápido quando necessário. Oferece menor custo que o S3 Standard mas mantém amesma durabilidade e disponibilidade, com acesso em milissegundos. 
+
+QUESTÃO 4 
+Resposta Correta: B 
+Explicação: No modelo de responsabilidade compartilhada, o cliente é responsável pela segurança "NA"nuvem, incluindo patches do SO, configuração de firewall, criptografia de dados e gerenciamento deidentidade. A AWS é responsável pela segurança "DA" nuvem (infraestrutura física, hardware, etc.).
+
+QUESTÃO 5 
+Resposta Correta: C 
+Explicação: O modelo Pay-as-you-go permite pagar apenas pelos recursos consumidos semcompromissos iniciais ou contratos de longo prazo. É ideal para startups que querem flexibilidade eminimizar custos iniciais, permitindo escalar conforme necessário. 
+
+QUESTÃO 6 
+Respostas Corretas: A, C, D 
+Explicação: Os principais benefícios da nuvem incluem: redução de custos operacionais (eliminanecessidade de hardware próprio), escalabilidade sob demanda (adicionar/remover recursos conformenecessário), e elasticidade automática (ajuste automático de recursos baseado na demanda). As outrasopções são características de infraestrutura on-premises. 
+
+QUESTÃO 7 
+Resposta Correta: C 
+Explicação: Amazon ElastiCache é um serviço de cache na memória totalmente gerenciado que suportaRedis e Memcached. Melhora a performance de aplicações ao permitir recuperação de dados de cachesrápidos na memória em vez de bancos de dados mais lentos baseados em disco. 
+
+QUESTÃO 8 
+Resposta Correta: C 
+Explicação: Hybrid cloud combina infraestrutura on-premises com recursos em nuvem, permitindo quedados e aplicações sejam compartilhados entre eles. É ideal quando há requisitos regulatórios outécnicos que impedem migração completa para a nuvem. 
+
+QUESTÃO 9
+Resposta Correta: B 
+Explicação: AWS Systems Manager fornece visibilidade e controle operacional sobre recursos AWS. Incluifuncionalidades como Patch Manager para patches automáticos, Maintenance Windows para janelas demanutenção, e Parameter Store para configurações centralizadas. 
+
+QUESTÃO 10 
+Resposta Correta: B 
+Explicação: Usar múltiplas Availability Zones aumenta significativamente a disponibilidade e tolerância afalhas. Cada AZ é um data center isolado com infraestrutura independente, permitindo que aplicaçõescontinuem funcionando mesmo se uma AZ falhar. 
+
+QUESTÃO 11 
+Resposta Correta: B 
+Explicação: Amazon DynamoDB é um banco NoSQL totalmente gerenciado que oferece performancerápida e previsível com escalabilidade automática. Suporta tanto modelos de dados document quantokey-value, sendo ideal para aplicações que precisam de latência baixa em qualquer escala. 
+
+QUESTÃO 12
+Resposta Correta: B 
+Explicação: AWS Trusted Advisor analisa seu ambiente AWS e fornece recomendações baseadas nasmelhores práticas da AWS nas cinco categorias: otimização de custos, performance, segurança, tolerânciaa falhas e limites de serviços. É uma ferramenta essencial para otimização contínua. 
+
+QUESTÃO 13 
+Respostas Corretas: A, C, E 
+Explicação: O S3 oferece durabilidade extremamente alta (11 9's), suporte a versionamento de objetospara proteger contra modificações acidentais, e criptografia tanto em trânsito quanto em repouso. Nãotem limites de capacidade e suporta objetos de até 5TB. 
+
+QUESTÃO 14 
+Resposta Correta: C 
+Explicação: Elastic Load Balancing (ELB) distribui automaticamente o tráfego de entrada entre múltiplasinstâncias EC2, containers, ou endereços IP. Oferece três tipos: Application Load Balancer (Layer 7),Network Load Balancer (Layer 4), e Gateway Load Balancer.
+
+QUESTÃO 15 
+Resposta Correta: B 
+Explicação: AWS CloudFormation permite modelar e provisionar recursos AWS usando templates (JSONou YAML). Implementa Infrastructure as Code (IaC), permitindo versionamento, automação e consistênciana criação de recursos. 
+
+QUESTÃO 16 
+Resposta Correta: B 
+Explicação: Amazon Kinesis é uma plataforma para streaming de dados em tempo real. Permite coletar,processar e analisar dados de streaming em tempo real, sendo ideal para análise de logs, métricas deaplicações e dados de IoT. 
+
+QUESTÃO 17 
+Resposta Correta: B 
+Explicação: Escalabilidade vertical (scale up) aumenta recursos de uma instância existente (CPU, RAM),enquanto escalabilidade horizontal (scale out) adiciona mais instâncias. A AWS favorece escalabilidadehorizontal por oferecer maior tolerância a falhas e flexibilidade. 
+
+QUESTÃO 18
+Resposta Correta: C 
+Explicação: Amazon CloudWatch é o serviço principal de monitoramento da AWS, coletando métricas,logs e eventos de recursos AWS. Permite criar dashboards, alarmes e automatizar ações baseadas emmétricas específicas. 
+
+QUESTÃO 19 
+Respostas Corretas: A, B, C 
+Explicação: A AWS oferece diferentes famílias de instâncias: Compute Optimized (C) para workloadsintensivos de CPU, Memory Optimized (R, X, Z) para aplicações que precisam de muita RAM, e StorageOptimized (I, D) para workloads que requerem alto I/O sequencial. 
+
+QUESTÃO 20 
+Resposta Correta: B 
+Explicação: AWS Identity and Access Management (IAM) permite gerenciar com segurança o acesso aserviços e recursos AWS. Você pode criar e gerenciar usuários, grupos, roles e políticas para controlarquem pode acessar quais recursos. 

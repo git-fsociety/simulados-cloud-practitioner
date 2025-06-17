@@ -1,0 +1,66 @@
+Questão,Resposta
+1,C) Reliability 
+2,A) Amazon EC2 
+3,C) S3 Glacier Instant Retrieval 
+4,A) Manutenção física dos data centers 
+5,A) Reserved Instances 
+6,
+7,A) Amazon RDS 
+8,A) Cloud-first 
+9,A) AWS CloudFormation 
+10,A) Reduzir custos de transferência de dados 
+11,A) Amazon RDS 
+12,A) AWS CloudWatch 
+13,
+14,A) Amazon Route 53 
+15,A) AWS CodeDeploy 
+16,A) Amazon Redshift 
+17,"A) Vertical adiciona instâncias, horizontal aumenta recursos "
+18,A) AWS CloudTrail 
+19,
+20,A) Amazon VPC 
+21,A) S3 Standard 
+22,A) AWS WAF 
+23,A) Amazon DynamoDB 
+24,A) Reduzir custos de compute 
+25,
+26,A) AWS DataSync 
+27,A) AWS Direct Connect 
+28,A) AWS Cost Explorer 
+29,A) Amazon EC2 
+30,A) Amazon EC2 
+31,
+32,C) Amazon Route 53 
+33,A) AWS CloudWatch 
+34,C) Elastic Load Balancing 
+35,A) Amazon EC2 
+36,B) Pagamento apenas pelo tempo de execução C) Escalabilidade automática ; D) Controle total sobre sistema operacional 
+37,A) AWS Config 
+38,A) AWS Lambda 
+39,"A) S3 é para backup, EBS é para aplicações "
+40,A) AWS Shield 
+41,
+42,A) VPN Site-to-Site 
+43,A) AWS Lambda 
+44,A) Amazon SQS 
+45,A) S3 Standard 
+46,
+47,A) Amazon RDS 
+48,"A) CodeCommit, CodeBuild, CodeDeploy, CodePipeline "
+49,A) Amazon RDS 
+50,A) AWS IAM 
+51,
+52,A) AWS DataSync 
+53,B) AWS Compliance Programs 
+54,A) Amazon CloudWatch 
+55,A) Reserved Instances 
+56,
+57,A) Amazon Redshift 
+58,A) On-Demand Instances 
+59,A) AWS Lambda 
+60,A) Amazon SNS 
+61,
+62,A) Amazon SageMaker 
+63,A) AWS Storage Gateway 
+64,A) RDS é mais caro que DynamoDB 
+65,B) Pilot Light 

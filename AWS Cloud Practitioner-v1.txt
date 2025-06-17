@@ -1,0 +1,480 @@
+AWS Cloud Practitioner (CCP) - Simulado 2025 65 Questões 
+QUESTÃO 1 
+Uma empresa está migrando sua infraestrutura para a AWS e quer garantir que seus dados sejam protegidos contra falhas de hardware. Qual princípio do AWS Well-Architected Framework melhoraborda essa preocupação? 
+A) Performance Efficiency 
+B) Cost Optimization 
+C) Reliability 
+D) Security 
+
+QUESTÃO 2
+Qual serviço AWS permite que você execute código sem provisionar ou gerenciar servidores?
+A) Amazon EC2 
+B) AWS Lambda 
+C) Amazon ECS 
+D) AWS Batch 
+
+QUESTÃO 3 
+Uma empresa precisa armazenar dados que são acessados raramente, mas devem estar disponíveis emalguns minutos quando necessário. Qual classe de armazenamento do Amazon S3 é mais adequada?
+A) S3 Standard 
+B) S3 Standard-IA 
+C) S3 Glacier Instant Retrieval 
+D) S3 Glacier Deep Archive
+
+QUESTÃO 4 
+Qual das seguintes é uma responsabilidade do cliente no modelo de responsabilidade compartilhada daAWS? 
+A) Manutenção física dos data centers 
+B) Patches do sistema operacional das instâncias EC2 
+C) Segurança da infraestrutura de rede da AWS 
+D) Substituição de hardware defeituoso 
+
+QUESTÃO 5 
+Uma startup quer minimizar custos iniciais e pagar apenas pelos recursos que usar. Qual modelo deprecificação da AWS melhor atende essa necessidade? 
+A) Reserved Instances 
+B) Dedicated Hosts 
+C) Pay-as-you-go 
+D) Savings Plans 
+
+QUESTÃO 6 (MÚLTIPLA ESCOLHA) 
+Quais são os benefícios da computação em nuvem? (Selecione TRÊS)
+A) Redução de custos operacionais 
+B) Maior controle sobre hardware físico 
+C) Escalabilidade sob demanda 
+D) Elasticidade automática 
+E) Necessidade de grandes investimentos iniciais 
+F) Manutenção de data centers próprios 
+
+QUESTÃO 7 
+Qual serviço AWS fornece um cache na memória totalmente gerenciado? 
+A) Amazon RDS 
+B) Amazon DynamoDB 
+C) Amazon ElastiCache 
+D) Amazon Redshift 
+
+QUESTÃO 8 
+Uma empresa quer migrar seu data center para AWS mas precisa manter algumas aplicações on premises por questões regulatórias. Qual arquitetura melhor descreve essa situação?
+A) Cloud-first 
+B) Cloud-native 
+C) Hybrid cloud 
+D) Multi-cloud 
+
+QUESTÃO 9
+Qual serviço AWS ajuda a automatizar tarefas de gerenciamento de sistemas como patches e backups?
+A) AWS CloudFormation 
+B) AWS Systems Manager 
+C) AWS Config 
+D) AWS CloudTrail 
+
+QUESTÃO 10 
+Qual é o benefício principal de usar múltiplas Availability Zones? 
+A) Reduzir custos de transferência de dados 
+B) Aumentar a disponibilidade e tolerância a falhas 
+C) Melhorar a performance de aplicações 
+D) Simplificar o gerenciamento de recursos 
+
+QUESTÃO 11 
+Uma empresa precisa de um banco de dados NoSQL totalmente gerenciado com performance consistente. Qual serviço AWS é mais adequado? 
+A) Amazon RDS 
+B) Amazon DynamoDB 
+C) Amazon Redshift 
+D) Amazon Aurora 
+
+QUESTÃO 12
+Qual ferramenta AWS fornece recomendações para otimizar custos, performance, segurança e tolerância falhas? 
+A) AWS CloudWatch 
+B) AWS Trusted Advisor 
+C) AWS Inspector 
+D) AWS X-Ray 
+
+QUESTÃO 13 (MÚLTIPLA ESCOLHA) 
+Quais são características do Amazon S3? (Selecione TRÊS) 
+A) Durabilidade de 99.999999999% (11 9's) 
+B) Capacidade de armazenamento limitada 
+C) Versionamento de objetos 
+D) Apenas para arquivos pequenos 
+E) Criptografia em trânsito e em repouso 
+F) Armazenamento local apenas 
+
+QUESTÃO 14 
+Uma aplicação web precisa de balanceamento de carga para distribuir tráfego entre múltiplas instânciasEC2. Qual serviço AWS deve ser usado? 
+A) Amazon Route 53 
+B) AWS CloudFront 
+C) Elastic Load Balancing 
+D) AWS Direct Connect 
+
+QUESTÃO 15 
+Qual serviço AWS permite criar e gerenciar infraestrutura usando código? 
+A) AWS CodeDeploy 
+B) AWS CloudFormation 
+C) AWS CodeCommit 
+D) AWS CodePipeline 
+
+QUESTÃO 16 
+Uma empresa quer analisar dados em tempo real de aplicações web. Qual serviço AWS é mais adequado? 
+A) Amazon Redshift 
+B) Amazon Kinesis 
+C) Amazon EMR 
+D) AWS Glue 
+
+QUESTÃO 17 
+Qual é a principal diferença entre escalabilidade vertical e horizontal? 
+A) Vertical adiciona instâncias, horizontal aumenta recursos 
+B) Vertical aumenta recursos, horizontal adiciona instâncias
+C) Ambas fazem a mesma coisa 
+D) Vertical é mais barata que horizontal 
+
+QUESTÃO 18
+Qual serviço AWS fornece monitoramento e observabilidade para recursos AWS? 
+A) AWS CloudTrail 
+B) AWS Config 
+C) Amazon CloudWatch 
+D) AWS Inspector 
+
+QUESTÃO 19 (MÚLTIPLA ESCOLHA) 
+Quais são tipos de instâncias EC2 otimizadas para diferentes workloads? (Selecione TRÊS) 
+A) Compute Optimized (Série C) 
+B) Memory Optimized (Série R) 
+C) Storage Optimized (Série I) 
+D) Network Optimized (Série N) 
+E) Database Optimized (Série D) 
+F) Cache Optimized (Série H) 
+
+QUESTÃO 20 
+Uma empresa quer garantir que apenas usuários autorizados acessem recursos AWS. Qual serviçofornece essa funcionalidade? 
+A) Amazon VPC 
+B) AWS IAM 
+C) Amazon Route 53 
+D) AWS Shield 
+
+QUESTÃO 21
+Qual classe de armazenamento do S3 é mais econômica para dados arquivais que raramente são acessados? 
+A) S3 Standard 
+B) S3 Intelligent-Tiering 
+C) S3 Glacier Flexible Retrieval 
+D) S3 Glacier Deep Archive 
+
+QUESTÃO 22 
+Qual serviço AWS protege aplicações web contra ataques DDoS? 
+A) AWS WAF 
+B) AWS Shield 
+C) Amazon GuardDuty 
+D) AWS Security Hub 
+
+QUESTÃO 23 
+Uma aplicação precisa de um banco de dados relacional compatível com MySQL com alta disponibilidade. Qual serviço AWS é recomendado? 
+A) Amazon DynamoDB 
+B) Amazon RDS 
+C) Amazon Redshift 
+D) Amazon DocumentDB 
+
+QUESTÃO 24
+Qual é o benefício principal de usar AWS Regions múltiplas? 
+A) Reduzir custos de compute 
+B) Melhorar latência para usuários globais 
+C) Aumentar limite de serviços 
+D) Simplificar gerenciamento 
+
+QUESTÃO 25 (MÚLTIPLA ESCOLHA) 
+Quais são componentes do modelo de precificação da AWS? (Selecione TRÊS) 
+A) Compute (tempo de processamento) 
+B) Storage (volume armazenado) 
+C) Data Transfer (transferência de dados) 
+D) Número de usuários 
+E) Localização física do cliente 
+F) Tipo de browser usado 
+
+QUESTÃO 26 
+Qual serviço AWS facilita a migração de bancos de dados para AWS? 
+A) AWS DataSync 
+B) AWS Database Migration Service 
+C) AWS Storage Gateway 
+D) AWS Application Migration Service 
+
+QUESTÃO 27
+Uma empresa precisa de rede privada isolada na AWS. Qual serviço deve usar? 
+A) AWS Direct Connect 
+B) Amazon VPC 
+C) AWS PrivateLink 
+D) Amazon Route 53 
+
+QUESTÃO 28 
+Qual ferramenta AWS ajuda a estimar custos antes de implementar recursos? 
+A) AWS Cost Explorer 
+B) AWS Budgets 
+C) AWS Pricing Calculator 
+D) AWS Cost and Usage Report 
+
+QUESTÃO 29 
+Qual serviço AWS oferece desktop virtual na nuvem? 
+A) Amazon EC2 
+B) Amazon WorkSpaces 
+C) AWS AppStream 2.0 
+D) Amazon Lightsail 
+
+QUESTÃO 30 
+Uma aplicação serverless precisa ser executada em resposta a uploads de arquivos no S3. Qual serviço AWS é ideal
+A) Amazon EC2 
+B) AWS Lambda 
+C) Amazon ECS 
+D) AWS Batch 
+
+QUESTÃO 31 (MÚLTIPLA ESCOLHA) 
+Quais são pilares do AWS Well-Architected Framework? (Selecione CINCO) 
+A) Operational Excellence 
+B) Security 
+C) Reliability 
+D) Performance Efficiency 
+E) Cost Optimization 
+F) Sustainability 
+G) Compliance 
+H) Governance 
+
+QUESTÃO 32 
+Qual serviço AWS fornece CDN (Content Delivery Network)? 
+A) Amazon S3 
+B) AWS CloudFront 
+C) Amazon Route 53 
+D) Elastic Load Balancing 
+
+QUESTÃO 33
+Uma empresa quer receber alertas quando os custos AWS excedem um limite. Qual serviço usar?
+A) AWS CloudWatch 
+B) AWS Budgets 
+C) AWS Cost Explorer 
+D) AWS Trusted Advisor 
+
+QUESTÃO 34 
+Qual serviço AWS é usado para DNS (Domain Name System)? 
+A) AWS CloudFront 
+B) Amazon Route 53 
+C) Elastic Load Balancing 
+D) AWS Direct Connect 
+
+QUESTÃO 35 
+Uma startup precisa de uma solução simples para hospedar uma aplicação web com banco de dados.Qual serviço AWS é mais adequado? 
+A) Amazon EC2 
+B) Amazon Lightsail 
+C) AWS Lambda 
+D) Amazon ECS 
+
+QUESTÃO 36 (MÚLTIPLA ESCOLHA) 
+Quais são benefícios do AWS Lambda? (Selecione TRÊS)
+A) Sem gerenciamento de servidores 
+B) Pagamento apenas pelo tempo de execução 
+C) Escalabilidade automática 
+D) Controle total sobre sistema operacional 
+E) Execução contínua por longos períodos 
+F) Acesso direto ao hardware 
+
+QUESTÃO 37 
+Qual serviço AWS ajuda a descobrir e classificar dados sensíveis? 
+A) AWS Config 
+B) Amazon Macie 
+C) AWS CloudTrail 
+D) Amazon Inspector 
+
+QUESTÃO 38 
+Uma aplicação requer processamento de dados em lotes durante horários de baixa demanda. Qualserviço AWS é apropriado? 
+A) AWS Lambda 
+B) Amazon EC2 Spot Instances 
+C) AWS Batch 
+D) Amazon ECS 
+
+QUESTÃO 39 
+Qual é a diferença principal entre Amazon S3 e Amazon EBS?
+A) S3 é para backup, EBS é para aplicações 
+B) S3 é object storage, EBS é block storage 
+C) S3 é mais caro que EBS 
+D) S3 é apenas para dados pequenos 
+
+QUESTÃO 40 
+Qual serviço AWS oferece análise de segurança automatizada de aplicações? 
+A) AWS Shield 
+B) Amazon Inspector 
+C) AWS WAF 
+D) AWS Security Hub 
+
+QUESTÃO 41 (MÚLTIPLA ESCOLHA) 
+Quais fatores influenciam os custos do Amazon EC2? (Selecione TRÊS) 
+A) Tipo de instância 
+B) Modelo de precificação 
+C) Região AWS 
+D) Número de usuários conectados 
+E) Cor da interface 
+F) Nome da aplicação 
+
+QUESTÃO 42 
+Uma empresa precisa de uma conexão dedicada entre seu data center e AWS. Qual serviço usar?
+A) VPN Site-to-Site 
+B) AWS Direct Connect 
+C) AWS PrivateLink 
+D) Amazon VPC Peering 
+
+QUESTÃO 43 
+Qual serviço AWS é usado para orquestração de workflows distribuídos? 
+A) AWS Lambda 
+B) Amazon SQS 
+C) AWS Step Functions 
+D) Amazon SNS 
+
+QUESTÃO 44 
+Uma aplicação precisa enviar notificações para múltiplos subscribers. Qual serviço AWS usar?
+A) Amazon SQS 
+B) Amazon SNS 
+C) Amazon SES 
+D) AWS Lambda 
+
+QUESTÃO 45 
+Qual classe de armazenamento S3 automaticamente move dados entre classes baseado em padrões deacesso?
+A) S3 Standard 
+B) S3 Intelligent-Tiering 
+C) S3 Glacier 
+D) S3 Standard-IA 
+
+QUESTÃO 46 (MÚLTIPLA ESCOLHA) 
+Quais são tipos de Load Balancers oferecidos pela AWS? (Selecione TRÊS) 
+A) Application Load Balancer 
+B) Network Load Balancer 
+C) Gateway Load Balancer 
+D) Classic Load Balancer 
+E) Database Load Balancer 
+F) Storage Load Balancer 
+
+QUESTÃO 47 
+Qual serviço AWS permite executar queries SQL em dados armazenados no S3? 
+A) Amazon RDS 
+B) Amazon Athena 
+C) Amazon Redshift 
+D) Amazon DynamoDB 
+
+QUESTÃO 48 
+Uma empresa quer implementar DevOps com integração e entrega contínuas. Qual conjunto de serviçosAWS é mais apropriado?
+A) CodeCommit, CodeBuild, CodeDeploy, CodePipeline 
+B) Lambda, S3, CloudFront, Route 53 
+C) EC2, RDS, VPC, IAM 
+D) CloudWatch, CloudTrail, Config, Trusted Advisor 
+
+QUESTÃO 49 
+Qual serviço AWS oferece data warehouse totalmente gerenciado? 
+A) Amazon RDS 
+B) Amazon DynamoDB 
+C) Amazon Redshift 
+D) Amazon Aurora 
+
+QUESTÃO 50 
+Uma aplicação móvel precisa de autenticação de usuários e sincronização de dados. Qual serviço AWSfornece essa funcionalidade? 
+A) AWS IAM 
+B) Amazon Cognito 
+C) AWS Directory Service 
+D) AWS Single Sign-On 
+
+QUESTÃO 51 (MÚLTIPLA ESCOLHA) 
+Quais são características do Amazon Aurora? (Selecione TRÊS)
+A) Compatível com MySQL e PostgreSQL 
+B) Performance até 5x melhor que MySQL 
+C) Armazenamento que escala automaticamente 
+D) Apenas disponível em uma AZ 
+E) Baseado em NoSQL 
+F) Não oferece backups automáticos 
+
+QUESTÃO 52 
+Qual serviço AWS ajuda a transferir grandes volumes de dados para a nuvem usando dispositivos físicos?
+A) AWS DataSync 
+B) AWS Snow Family 
+C) AWS Storage Gateway 
+D) AWS Direct Connect 
+
+QUESTÃO 53 
+Uma empresa precisa de conformidade com regulamentações específicas da indústria financeira. Qualprograma AWS fornece essa garantia? 
+A) AWS Well-Architected 
+B) AWS Compliance Programs 
+C) AWS Support 
+D) AWS Professional Services 
+
+QUESTÃO 54
+Qual serviço AWS permite monitorar e registrar chamadas de API? 
+A) Amazon CloudWatch 
+B) AWS CloudTrail 
+C) AWS Config 
+D) AWS X-Ray 
+
+QUESTÃO 55 
+Uma aplicação web experimenta picos de tráfego imprevisíveis. Qual recurso AWS ajuda a lidar com essasituação? 
+A) Reserved Instances 
+B) Auto Scaling 
+C) Dedicated Hosts 
+D) Placement Groups 
+
+QUESTÃO 56 (MÚLTIPLA ESCOLHA) 
+Quais são componentes principais de uma Amazon VPC? (Selecione TRÊS) 
+A) Subnets 
+B) Route Tables 
+C) Internet Gateway 
+D) Load Balancers 
+E) Auto Scaling Groups 
+F) Lambda Functions 
+
+QUESTÃO 57 
+Qual serviço AWS oferece busca e análise de dados em tempo real? 
+A) Amazon Redshift 
+B) Amazon Elasticsearch Service 
+C) Amazon EMR 
+D) Amazon Athena 
+
+QUESTÃO 58 
+Uma empresa quer reduzir custos de compute para workloads tolerantes a interrupções. Qual opção deprecificação EC2 usar? 
+A) On-Demand Instances 
+B) Reserved Instances 
+C) Spot Instances 
+D) Dedicated Instances 
+
+QUESTÃO 59 
+Qual serviço AWS facilita a criação de APIs RESTful? 
+A) AWS Lambda 
+B) Amazon API Gateway 
+C) Amazon Route 53 
+D) Elastic Load Balancing 
+
+QUESTÃO 60
+Uma aplicação precisa processar mensagens de forma assíncrona e garantir que sejam processadas pelomenos uma vez. Qual serviço usar? 
+A) Amazon SNS 
+B) Amazon SQS 
+C) Amazon Kinesis 
+D) AWS Step Functions 
+
+QUESTÃO 61 (MÚLTIPLA ESCOLHA) 
+Quais são melhores práticas de segurança na AWS? (Selecione TRÊS) 
+A) Implementar princípio de menor privilégio 
+B) Usar credenciais hardcoded no código 
+C) Habilitar MFA para usuários privilegiados 
+D) Compartilhar chaves de acesso via email 
+E) Monitorar atividades com CloudTrail 
+F) Usar senhas simples e fáceis 
+
+QUESTÃO 62 
+Qual serviço AWS oferece machine learning pré-treinado para análise de texto? 
+A) Amazon SageMaker 
+B) Amazon Comprehend 
+C) Amazon Rekognition 
+D) Amazon Polly 
+
+QUESTÃO 63 
+Uma empresa precisa de backup automatizado de dados on-premises para AWS. Qual serviço usar?
+A) AWS Storage Gateway 
+B) AWS DataSync 
+C) Amazon S3 
+D) AWS Backup 
+
+QUESTÃO 64 
+Qual é a diferença principal entre Amazon RDS e Amazon DynamoDB? 
+A) RDS é mais caro que DynamoDB 
+B) RDS é relacional, DynamoDB é NoSQL 
+C) RDS é apenas para dados pequenos 
+D) DynamoDB não oferece backups 
+
+QUESTÃO 65 
+Uma empresa quer implementar disaster recovery com RTO (Recovery Time Objective) de minutos. Qual estratégia AWS é mais apropriada? 
+A) Backup and Restore 
+B) Pilot Light 
+C) Warm Standby 
+D) Multi-Site Active/Active 
+
