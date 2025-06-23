@@ -7,7 +7,7 @@ st.title("🧠 Simulado AWS Cloud Practitioner - 2025")
 st.markdown("Este simulado contém 65 questões de múltipla escolha para praticar para a certificação AWS CCP (CLF-C02).")
 
 # Carregamento do arquivo local
-with open("AWS Cloud Practitioner-v1.txt", "r", encoding="utf-8") as f:
+with open("AWSCloudPractitioner-v1.txt", "r", encoding="utf-8") as f:
     content = f.read()
 
 # Extrair questões usando regex
