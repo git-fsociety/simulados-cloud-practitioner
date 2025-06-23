@@ -1,0 +1,482 @@
+AWS Cloud Practitioner (CCP) - Simulado 2025 65 Questões 
+QUESTÃO 1
+Uma empresa deseja usar o Amazon S3 para armazenar seus dados antigos. Os  dados raramente são acessados. 
+No entanto, os dados são críticos e não podem ser  recuperados se perdidos. 
+Os dados precisam estar disponíveis para recuperação em segundos.  Qual classe de armazenamento do S3 atende a esses requisitos de forma MAIS econômica?  
+A) S3 One Zone-Infrequent Access (S3 One Zone-IA)  
+B) S3 Standard-Infrequent Access (S3 Standard-IA)  
+C) S3 Standard  
+D) S3 Glacier  
+
+Questão 2  
+Uma empresa tem um servidor de banco de dados que está sempre em execução. A  empresa hospeda o servidor em instâncias do Amazon EC2. 
+Os tamanhos de instância são  adequados para a carga de trabalho. A carga horária terá duração de 1 ano. 
+Qual opção de  compra de instância do EC2 atenderá a esses requisitos de forma MAIS econômica?  
+A) Reservadas  
+B) Spot  
+C) Sob Demanda  
+D) Nenhuma das anteriores  
+
+Questão 3  
+Qual das tarefas a seguir, é executada automaticamente pela AWS? 
+A) Correção de instâncias do Amazon EC2  
+B) Criptografia dos dados armazenados no Amazon DynamoDB  
+C) Criação de certificados SSL/TLS para sites de usuários 
+D) Criptografia do tráfego de rede do usuário  
+
+Questão 4  
+Qual serviço ou recurso da AWS é usado para enviar mensagens de texto e e-mail de  aplicativos distribuídos? 
+A) Amazon Simple Queue Service (Amazon SQS)  
+B) Amazon Simple Email Service (Amazon SES)  
+C) Amazon CloudWatch Alarms  
+D) Amazon Simple Notification Service (Amazon SNS) 
+
+Questão 5  
+Uma empresa gostaria de hospedar seus bancos de dados MySQL na AWS e manter  controle total sobre o sistema operacional, a instalação e a configuração do banco de dados. 
+Qual serviço da AWS a empresa deve usar para hospedar os bancos de dados?  
+A) Amazon EC2  
+B) Amazon Aurora  
+C) Amazon RDS  
+D) Amazon DynamoDB  
+ 
+Questão 6  
+Uma empresa precisa configurar um data warehouse em escala de petabytes na  Nuvem AWS. Qual serviço da AWS atenderá a esse requisito?  
+A) Amazon ElastiCache 
+B) Amazon RDS  
+C) Amazon DynamoDB  
+D) Amazon Redshift
+
+Questão 7  
+Qual serviço da AWS oferece a capacidade de visualizar métricas de desempenho de  ponta a ponta e solucionar problemas de aplicativos distribuídos? 
+A) AWS Cloud Map  
+B) AWS CodeStar  
+C) AWS X-Ray  
+D) AWS Cloud9  
+
+Questão 8  
+Uma empresa está migrando para a Nuvem AWS em vez de executar sua  infraestrutura localmente. Quais das seguintes são as vantagens dessa migração?  
+A) Maior alcance global e agilidade  
+B) Eliminação da necessidade de realizar auditoria de segurança  
+C) Capacidade de implantar globalmente em minutos  
+D) Redundância por padrão para todos os serviços de computação  
+ 
+Questão 9  
+Uma empresa deseja melhorar sua nível de segurança e auditoria limitando o acesso  de entrada do Amazon EC2. 
+O que a empresa deve usar para acessar instâncias remotamente  em vez de abrir portas SSH de entrada e gerenciar chaves SSH?  
+A) EC2 key pairs  
+B) AWS Systems Manager Session Manager  
+C) Network ACLs  
+D) AWS Identity and Access Management (IAM) 
+  
+Questão 10 
+De acordo com o modelo de responsabilidade compartilhada da AWS, qual tarefa é  de responsabilidade do cliente?  
+A) Atualização do sistema operacional de instâncias do Amazon DynamoDB  
+B) Manutenção da infraestrutura do Amazon S3  
+C) Manutenção da infraestrutura necessária para executar o AWS Lambda  
+D) Atualização do sistema operacional convidado em instâncias do Amazon EC2  
+
+Questão 11  
+Uma empresa deseja implantar alguns de seus recursos na Nuvem AWS. 
+Para  atender aos requisitos regulatórios, os dados devem permanecer no local e deve haver baixa  latência entre a AWS e os recursos da empresa. 
+Qual serviço ou recurso da AWS pode ser  usado para atender a esses requisitos?  
+A) AWS Wavelength  
+B) Zonas de disponibilidade  
+C) AWS Outposts  
+D) AWS Local Zones  
+
+Questão 12  
+Uma empresa deseja migrar rapidamente um pequeno site e banco de dados da  infraestrutura local para a Nuvem AWS. 
+A empresa tem conhecimento operacional limitado  para realizar a migração. Qual serviço da AWS oferece suporte a esse caso de uso?  
+A) AWS Lambda  
+B) Amazon Lightsail  
+C) Amazon S3  
+D) Amazon EC2  
+  
+Questão 13 
+Uma empresa de varejo on-line deseja migrar sua carga de trabalho local para a  AWS. 
+A empresa precisa lidar automaticamente com um aumento sazonal da carga de trabalho  de maneira econômica. 
+Quais recursos da Nuvem AWS ajudarão a empresa a atender a esse  requisito?  
+A) Recursos internos de auditoria do AWS CloudTrail  
+B) Registro em log centralizado  
+C) Auto Scaling policies  
+D) Implantação de carga de trabalho entre regiões  
+
+Questão 14  
+Qual tarefa é de responsabilidade da AWS quando uma carga de trabalho está sendo  executada no Amazon RDS?  
+A) Atualização do esquema do banco de dados  
+B) Instalação do Mecanismo de Banco de Dados  
+C) Descarte dos registros do banco de dados  
+D) Criação da tabela do banco de dados  
+
+Questão 15  
+Uma empresa está migrando seu site público para a AWS. A empresa quer hospedar  o nome de domínio do site na AWS. 
+Qual serviço da AWS a empresa deve usar para atender a  esse requisito?  
+A) AWS Direct Connect  
+B) AWS Lambda  
+C) Amazon Route 53  
+D) Amazon CloudFront  
+
+Questão 16 
+Como a infraestrutura global da AWS oferece alta disponibilidade e tolerância a  falhas para seus usuários?  
+A) A infraestrutura da AWS é composta por várias regiões da AWS dentro de várias  zonas de disponibilidade localizadas em áreas com baixo risco de inundação e  interconectadas com redes de baixa latência e fontes de alimentação redundantes  
+B) A infraestrutura da AWS consiste em sub-redes contendo várias zonas de  disponibilidade com vários data centers localizados na mesma localização geográfica  
+C) A AWS permite que os usuários escolham regiões e data centers da AWS para que os  usuários possam selecionar os data centers mais próximos em diferentes regiões  
+D) A infraestrutura da AWS consiste em regiões isoladas, com zonas de disponibilidade  independentes conectadas a redes de baixa latência e fontes de alimentação  redundantes  
+
+Questão 17  
+Uma empresa está criando um documento que define a rotina de patch do sistema  operacional para todos os sistemas da empresa. Quais recursos da AWS a empresa deve incluir  neste documento?  
+A) Instâncias do Amazon RDS  
+B) Instâncias do Amazon EC2  
+C) Tarefas do AWS Fargate  
+D) AWS Lambda functions 
+
+Questão 18  
+Uma empresa tem uma plataforma de mídia social na qual os usuários fazem upload  e compartilham fotos entre si. A empresa quer identificar e remover fotos impróprias. A  empresa não tem cientistas de aprendizado de máquina (ML) e deve desenvolver esse recurso  de detecção sem experiência em ML. Qual serviço de IA da AWS, a empresa deve usar para  criar esse recurso?  
+A) Amazon Comprehend 
+B) Amazon Rekognition 
+C) Amazon Textract  
+D) Amazon SageMaker  
+
+Questão 19  
+Uma empresa precisa analisar seu ambiente AWS e fornecer recomendações de  práticas recomendadas em cinco categorias: custo, desempenho, limites de serviço, tolerância  a falhas e segurança. Qual serviço da AWS a empresa pode usar para atender a esses  requisitos?  
+A) AWS Shield  
+B) AWS Service Catalog  
+C) AWS WAF  
+D) AWS Trusted Advisor  
+
+Questão 20  
+De que maneira a Nuvem AWS oferece menor custo total de propriedade (TCO) de  recursos de computação do que os data centers locais?  
+A) A AWS foi projetada para alta disponibilidade, o que elimina o tempo de inatividade  do usuário  
+B) A AWS usa economias de escala para reduzir continuamente os preços C) A AWS substitui as despesas de capital iniciais por custos pré-pagos  
+D) A AWS oferece um modelo de definição de preço único para instâncias do Amazon  EC2  
+
+Questão 21  
+Qual pilar do AWS Well-Architected Framework se refere à capacidade de um  sistema de se recuperar de interrupções de infraestrutura ou serviço e adquirir dinamicamente  recursos de computação para atender à demanda?  
+Opções:
+A) Eficiência de desempenho  
+B) Segurança  
+C) Confiabilidade  
+D) Otimização de custos 
+  
+Questão 22  
+Qual princípio de design é alcançado seguindo o pilar de confiabilidade do AWS  Well-Architected Framework?  
+A) Recuperação manual de falhas  
+B) Dimensionamento vertical 
+C) Testando procedimentos de recuperação  
+D) Alterando a infraestrutura manualmente  
+  
+Questão 23  
+Uma empresa está movendo vários aplicativos para uma única conta da AWS. A  empresa quer monitorar os custos da Nuvem AWS incorridos por cada aplicativo. 
+O que a  empresa pode fazer para atender a esse requisito?  
+A) Use AWS Artifact 
+B) Defina orçamentos no Explorador de Custos  
+C) Crie tags de alocação de custos  
+D) Configurar o faturamento faturado  
+  
+Questão 24  
+Uma empresa quer revisar seus custos mensais de uso do Amazon EC2 e do Amazon  RDS no ano passado. Qual serviço ou ferramenta da AWS fornece esse histórico?  
+A) Amazon Forecast 
+B) Cost Explorer  
+C) AWS Trusted Advisor  
+D) Amazon CloudWatch  
+
+Questão 25  
+Qual serviço da AWS monitora as contas da AWS em busca de ameaças à segurança?  
+A) Amazon GuardDuty  
+B) Amazon Cognito  
+C) AWS Secrets Manager  
+D) AWS Certificate Manager (ACM) 
+
+Questão 26  
+Uma empresa precisa de um ambiente isolado na AWS para fins de segurança. Que  medidas podem ser tomadas para conseguir isso?  
+A) Crie uma conexão do AWS Direct Connect entre a empresa e a AWS 
+B) Crie uma Amazon VPC separada para hospedar os recursos  
+C) Crie um grupo de posicionamento para hospedar os recursos  
+D) Crie uma Zona de Disponibilidade separada para hospedar os recursos   
+
+Questão 27  
+Qual serviço ou ferramenta da AWS uma empresa pode usar para visualizar,  entender e gerenciar os gastos e o uso da AWS ao longo do tempo?  
+A) AWS Trusted Advisor  
+B) AWS Budgets  
+C) Cost Explorer  
+D) Amazon CloudWatch 
+
+Questão 28  
+Uma empresa deseja migrar um aplicativo crítico para a AWS. O aplicativo tem um  tempo de execução curto. 
+O aplicativo é chamado por alterações nos dados ou por alterações  no estado do sistema. A empresa precisa de uma solução de computação que maximize a  eficiência operacional e minimize o custo de execução do aplicativo. 
+Qual solução da AWS a  empresa deve usar para atender a esses requisitos?  
+A) Reserved Instances do Amazon EC2  
+B) On-Demand Instances do Amazon EC2  
+C) Spot Instances do Amazon EC2  
+D) AWS Lambda  
+ 
+Questão 29  
+Uma empresa deseja limitar o acesso de seus funcionários à AWS a um porƞólio de  recursos predefinidos da AWS. 
+Qual solução da AWS a empresa deve usar para atender a esse  requisito?  
+A) AWS Service Catalog  
+B) AWS Config  
+C) AWS soŌware development kits (SDKs) 
+D) AWS AppSync  
+ 
+Questão 30  
+Uma empresa global de mídia usa o AWS Organizations para gerenciar várias contas  da AWS. 
+Qual serviço ou recurso da AWS a empresa pode usar para limitar o acesso aos  serviços da AWS para contas associadas?  
+A) Listas de controle de acesso (ACLs)  
+B) Unidades organizacionais (UOs)  
+C) Políticas de controle de serviço (SCPs)
+D) AWS Identity and Access Management (IAM) 
+
+Questão 31  
+Qual dos seguintes beneİcios é a migração de um data center local para a Nuvem  AWS?  
+A) Os usuários mantêm acesso administrativo total às suas instâncias de computação 
+B) As instâncias de computação podem ser iniciadas e encerradas conforme necessário  para otimizar os custos 
+C) Os usuários podem otimizar os custos executando permanentemente instâncias  suficientes no pico de carga  
+D) Os custos de computação podem ser visualizados no console do AWS Billing and  Cost Management  
+
+Questão 32  
+Um usuário pode configurar uma conta mestra de pagador para exibir relatórios de  faturamento consolidados por meio de:  
+A) Amazon Macie  
+B) AWS Organizations 
+C) Amazon QuickSight  
+D) AWS Budgets  
+
+Questão 33  
+Uma empresa está desenvolvendo um aplicativo móvel que precisa de um banco de  dados NoSQL de alto desempenho. 
+Quais serviços da AWS a empresa poderia usar para esse  banco de dados?  
+A) Amazon RDS  
+B) Amazon DynamoDB 
+C) Amazon RedshiŌ 
+D) Amazon DocumentDB (with MongoDB compatibility) 
+  
+Questão 34  
+Um usuário precisa implantar rapidamente um banco de dados não relacional na  AWS. O usuário não deseja gerenciar o hardware subjacente ou o soŌware de banco de dados.  
+Qual serviço da AWS pode ser usado para fazer isso?  
+A) Amazon RDS  
+B) Amazon Aurora  
+C) Amazon DynamoDB  
+D) Amazon RedshiŌ 
+
+Questão 35  
+Uma empresa tem uma única instância do Amazon EC2. A empresa quer adotar uma  arquitetura altamente disponível. O que a empresa pode fazer para atender a esse requisito?  
+A) Dimensione verticalmente para um tamanho de instância do EC2 maior 
+B) Dimensione horizontalmente em várias zonas de disponibilidade  
+C) Adquira uma instância dedicada do EC2  
+D) Altere a família de instâncias do EC2 para uma instância otimizada para computação 
+ 
+Questão 36  
+Uma empresa tem vários aplicativos e agora está criando um novo aplicativo de  várias camadas. A empresa hospedará o novo aplicativo em instâncias do Amazon EC2. 
+A  empresa quer que o roteamento de rede e o tráfego entre os vários aplicativos sigam o  princípio de segurança de menor privilégio. 
+Qual serviço ou recurso da AWS a empresa deve  usar para aplicar esse princípio?  
+A) AWS Shield  
+B) Security groups 
+C) AWS Direct Connect gateway  
+D) AWS Global Accelerator  
+
+Questão 37  
+Uma empresa precisa gerar relatórios que possam dividir os custos de nuvem por  produto, por tags definidas pela empresa e por hora, dia e mês. 
+Qual ferramenta da AWS a  empresa deve usar para atender a esses requisitos?  
+A) AWS Cost and Usage Reports  
+B) Reserved Instance Utilization and Coverage Reports 
+C) Savings Plans Utilization Reports 
+D) AWS Budgets Reports  
+
+Questão 38  
+Uma empresa está começando a construir sua infraestrutura na Nuvem AWS. A  empresa quer acesso ao suporte técnico em horário comercial. 
+A empresa também quer  orientação geral de arquitetura à medida que as equipes criam e testam novos aplicativos.  
+Qual plano do AWS Support atenderá a esses requisitos pelo menor custo?  
+A) AWS Business Support  
+B) Suporte básico da AWS  
+C) Suporte ao desenvolvedor da AWS  
+D) AWS Enterprise Support  
+
+Questão 39  
+Qual serviço da AWS ajuda os desenvolvedores a usar acoplamento flexível e  mensagens confiáveis entre microsserviços?  
+A) Amazon Simple Queue Service (Amazon SQS)  
+B) Amazon Simple Notification Service (Amazon SNS)
+C) Elastic Load Balancing 
+D) Amazon CloudFront  
+
+Questão 40  
+O aplicativo web de uma empresa requer credenciais e autorizações da AWS para  usar um serviço da AWS. Qual entidade do IAM a empresa deve usar como prática  recomendada?  
+A) IAM group  
+B) IAM role  
+C) IAM user  
+D) IAM MFA (Multi-Factor Authentication) 
+
+Questão 41  
+Uma empresa precisa criar um aplicativo que use os serviços da AWS. A candidatura  será entregue a residentes em concelhos europeus. 
+A empresa deve cumprir os requisitos  regulatórios regionais. Qual serviço ou programa da AWS a empresa deve usar para determinar  quais serviços da AWS atendem aos requisitos regionais?  
+A) AWS Shield  
+B) AWS Audit Manager  
+C) AWS Artifact 
+D) AWS Compliance Program  
+
+Questão 42  
+Uma empresa está usando o Amazon EC2 Auto Scaling para dimensionar suas  instâncias do Amazon EC2. Qual beneİcio da Nuvem AWS este exemplo ilustra? 
+A) Alcance global  
+B) Confiabilidade 
+C) Alta disponibilidade  
+D) Elasticidade 
+
+Questão 43  
+Uma empresa precisa de uma instância do Amazon EC2 para um servidor de banco  de dados com direitos que deve ser executado constantemente por 1 ano. 
+Qual opção de  compra de instância do EC2 atenderá a esses requisitos de forma MAIS econômica?  
+A) Spot Instance  
+B) Standard Reserved Instance  
+C) On-Demand Instance  
+D) Convertible Reserved Instance 
+ 
+Questão 44  
+Uma empresa tem um aplicativo sem servidor que inclui uma API do Amazon API  Gateway, uma função do AWS Lambda e um banco de dados do Amazon DynamoDB. 
+Qual  serviço da AWS a empresa pode usar para rastrear solicitações de usuários à medida que elas  se movem pelos componentes do aplicativo? 
+A) Amazon CloudWatch  
+B) AWS CloudTrail  
+C) AWS X-Ray  
+D) Amazon Inspector  
+
+Questão 45  
+Uma empresa precisa projetar um plano de recuperação de desastres da AWS para  cobrir várias áreas geográficas. Qual ação atenderá a esse requisito?  
+A) Configure a arquitetura em várias zonas de disponibilidade em uma região da AWS  
+B) Configure várias contas da AWS 
+C) Configure a arquitetura em várias regiões da AWS  
+D) Configure a arquitetura entre vários pontos de presença  
+
+Questão 46  
+Qual serviço da AWS fornece detecção de ameaças por meio do monitoramento de  atividades maliciosas e ações não autorizadas para proteger contas, 
+cargas de trabalho e dados  da AWS armazenados no Amazon S3?  
+A) Amazon Macie  
+B) AWS Firewall Manager  
+C) Amazon GuardDuty  
+D) AWS Shield  
+
+Questão 47  
+Depois de selecionar uma reserva de host dedicado do Amazon EC2, qual opção de  definição de preço proporcionaria o maior desconto?  
+A) Sem pagamento adiantado  
+B) Pagamento por hora sob demanda  
+C) Pagamento antecipado parcial  
+D) Todo o pagamento adiantado  
+  
+Questão 48  
+O que a equipe de suporte do AWS Concierge oferece?  
+A) Um parceiro para ajudar a fornecer orientação de dimensionamento para um  lançamento de evento  
+B) Um ponto de contato principal para o AWS Billing e o AWS Support  
+C) Um membro dedicado da equipe da AWS que analisa a arquitetura de aplicativos do  usuário 
+D) Um especialista técnico dedicado ao usuário  
+ 
+Questão 49  
+Qual serviço da AWS é um serviço Web DNS altamente disponível e escalável?  A) Amazon CloudFront  
+B) Amazon VPC  
+C) Amazon Route 53  
+D) AWS Direct Connect  
+
+Questão 50  
+Uma empresa precisa implementar o gerenciamento de identidade para uma frota  de aplicativos móveis em execução na Nuvem AWS. Qual serviço da AWS atenderá a esse  requisito?  
+A) AWS WAF  
+B) Amazon Cognito  
+C) AWS Security Hub  
+D) AWS Shield  
+
+Questão 51  
+Quais das seguintes vantagens da Nuvem AWS?  
+A) Capacidade de alterar rapidamente a capacidade necessária  
+B) Maior tempo de implantação no mercado  
+C) Altas economias de escala  
+D) Aumento das despesas fixas  
+
+Questão 52  
+Uma equipe de desenvolvimento deseja publicar e gerenciar serviços Web que  fornecem APIs REST. Qual serviço da AWS atenderá a esse requisito?  
+A) AWS Cloud Map  
+B) AWS App Mesh  
+C) Amazon CloudFront  
+D) Amazon API Gateway  
+
+Questão 53  
+Quais dos itens a seguir estão incluídos no AWS Enterprise Support?  A) AWS Technical Account Manager (TAM)  
+B) Tempo de resposta de 5 minutos para problemas críticos 
+C) Suporte liderado por parceiros da AWS  
+D) Suporte à integração de soŌware de terceiros com a AWS 
+
+Questão 54  
+O ciclo de implantação de aplicativos locais de uma empresa era de 3 a 4 semanas.  Após a migração para a Nuvem AWS, a empresa pode implantar o aplicativo em 2 a 3 dias. 
+Qual  beneİcio essa empresa experimentou ao migrar para a Nuvem AWS? 
+A) Flexibilidade  
+B) Agilidade  
+C) Resiliência  
+D) Elasticidade 
+ 
+Questão 55 
+No modelo de responsabilidade compartilhada da AWS, qual tarefa é  responsabilidade do cliente ao gerenciar funções do AWS Lambda?  
+A) Dimensionamento de recursos do Lambda de acordo com a demanda  
+B) Atualizando o ambiente de tempo de execução do Lambda  
+C) Manutenção de servidores e sistemas operacionais  
+D) Criando versões de funções do Lambda  
+ 
+Questão 56  
+Qual das seguintes práticas é a melhor prática da AWS para gerenciar um usuário  raiz da conta da AWS?  
+A) Mantenha a senha do usuário root consistente para fins de conformidade  
+B) Mantenha a senha do usuário root com a equipe de segurança  
+C) Habilite a autenticação multifator (MFA) para o usuário raiz 
+D) Crie uma chave de acesso para o usuário raiz  
+
+Questão 57  
+Qual serviço da AWS é sempre fornecido gratuitamente?  
+A) AWS Identity and Access Management (IAM) 
+B) Amazon S3  
+C) Elastic Load Balancers 
+D) AWS WAF  
+
+Questão 58  
+Uma empresa refinou sua carga de trabalho para usar serviços específicos da AWS  para melhorar a eficiência e reduzir custos. Que melhores práticas para a governança de custos  este exemplo mostra?  
+A) Controles de recursos  
+B) Alocação de custos  
+C) Otimização de arquitetura 
+D) Imposição de marcação  
+
+Questão 59  
+Uma empresa está migrando para a Nuvem AWS em vez de executar sua infraestrutura  localmente. Quais das seguintes são as vantagens dessa migração?"  
+A) Redundância por padrão para todos os serviços de computação  
+B) Capacidade de implantar globalmente em minutos  
+C) Eliminação do custo dos membros da equipe de TI  
+D) Eliminação da necessidade de realizar auditoria de segurança  
+  
+Questão 60  
+Qual responsabilidade pertence à AWS quando uma empresa hospeda seus bancos de dados  em instâncias do Amazon EC2?  
+A) Database soŌware patches 
+B) Backups de banco de dados  
+C) Instalações do sistema operacional  
+D) Operating system patches 
+
+Questão 61  
+Um usuário está comparando opções de compra para um aplicativo executado no Amazon EC2  e no Amazon RDS. O aplicativo não pode sustentar qualquer interrupção. O aplicativo  experimenta uma quantidade previsível de uso, incluindo alguns picos sazonais que duram  apenas algumas semanas de cada vez. Não é possível modificar o aplicativo. Qual opção de  compra atende a esses requisitos de forma MAIS econômica?  
+A) Compre instâncias reservadas para a quantidade prevista de uso ao longo do ano. Permitir  que qualquer uso sazonal seja executado em instâncias spot.",  
+B) Analise o AWS Marketplace e compre instâncias reservadas iniciais parciais para cobrir a  carga prevista e sazonal",  
+C) Compre instâncias reservadas para cobrir todo o uso potencial resultante do uso sazonal.",  
+D) Compre instâncias reservadas para a quantidade prevista de uso ao longo do ano. Permitir  que qualquer uso sazonal seja executado a uma taxa sob demanda.  
+  
+Questão 62  
+A AWS tem a capacidade de obter preços de pagamento conforme o uso mais baixos  agregando o uso em centenas de milhares de usuários. Isso descreve qual vantagem da Nuvem  AWS?  
+A) Aumente a velocidade e a agilidade  
+B) Lançamento global em minutos  
+C) Alta economia de escala  
+D) Sem adivinhação sobre a capacidade de computação  
+   
+Questão 63  
+Uma empresa on-line estava executando uma carga de trabalho no local e estava lutando para  lançar novos produtos e recursos. Depois de migrar a carga de trabalho para a AWS, a empresa  pode lançar rapidamente produtos, recursos e dimensionar sua infraestrutura conforme  necessário. Qual proposta de valor da Nuvem AWS esse cenário descreve?", 
+A) Alta disponibilidade  
+B) Auditoria centralizada  
+C) Segurança  
+D) Agilidade nos negócios  
+   
+Questão 64  
+Uma empresa está começando a construir sua infraestrutura na Nuvem AWS. A empresa quer  acesso ao suporte técnico em horário comercial. A empresa também quer orientação geral de  arquitetura à medida que as equipes criam e testam novos aplicativos. Qual plano do AWS  Support atenderá a esses requisitos pelo menor custo?  
+A) Business  
+B) Suporte  
+C) Desenvolvedor  
+D) Enterprise  
+   
+Questão 65  
+Qual beneİcio da computação na nuvem, a AWS demonstra com sua capacidade de oferecer  custos variáveis mais baixos, como resultado de altos volumes de compra?  
+A) Alcance global  
+B) Alta disponibilidade  
+C) Economia de escala  
+D) Preços pré-pagos  

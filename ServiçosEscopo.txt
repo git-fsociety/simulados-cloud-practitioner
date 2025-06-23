@@ -1,0 +1,125 @@
+Analytics:
+• Amazon Athena
+• Amazon EMR
+• AWS Glue
+• Amazon Kinesis
+• Amazon OpenSearch Service
+• Amazon QuickSight
+• Amazon Redshift
+Integração de aplicações:
+• Amazon EventBridge
+• Amazon Simple Notification Service (Amazon SNS)
+• Amazon Simple Queue Service (Amazon SQS)
+• AWS Step Functions
+Aplicações empresariais:
+• Amazon Connect
+• Amazon Simple Email Service (Amazon SES)
+Gerenciamento financeiro da nuvem:
+• AWS Budgets
+• Relatórios de custo e uso da AWS
+• AWS Cost Explorer
+• AWS Marketplace
+Computação:
+• AWS Batch
+• Amazon EC2
+• AWS Elastic Beanstalk
+• Amazon Lightsail
+• AWS Outposts
+Contêineres:
+• Amazon Elastic Container Registry (Amazon ECR)
+• Amazon Elastic Container Service (Amazon ECS)
+• Amazon Elastic Kubernetes Service (Amazon EKS)
+Capacitação de clientes:
+• AWS Support
+Banco de dados:
+• Amazon Aurora
+• Amazon DocumentDB
+• Amazon DynamoDB
+• Amazon ElastiCache
+• Amazon Neptune
+• Amazon RDS
+Web e dispositivos móveis de frontend:
+• AWS Amplify
+• AWS AppSync
+Internet das Coisas (IoT):
+• AWS IoT Core
+Machine learning:
+• Amazon Comprehend
+• Amazon Kendra
+• Amazon Lex
+• Amazon Polly
+• Amazon Q
+• Amazon Rekognition
+• Amazon SageMaker IA
+• Amazon Textract
+• Amazon Transcribe
+• Amazon Translate
+Gerenciamento e governança:
+• AWS Auto Scaling
+• AWS CloudFormation
+• AWS CloudTrail
+• Amazon CloudWatch
+• AWS Compute Optimizer
+• AWS Config
+• AWS Control Tower
+• AWS Health Dashboard
+• AWS License Manager
+• Console de Gerenciamento da AWS
+• AWS Organizations
+• AWS Service Catalog
+• Service Quotas
+• AWS Systems Manager
+• AWS Trusted Advisor
+• AWS Well-Architected Tool
+Migração e transferência:
+• AWS Application Discovery Service
+• AWS Application Migration Service
+• AWS Database Migration Service (AWS DMS)
+• Migration Evaluator
+• AWS Migration Hub
+• AWS Schema Conversion Tool (AWS SCT)
+• Família AWS Snow
+Redes e entrega de conteúdo:
+• Amazon API Gateway
+• Amazon CloudFront
+• AWS Direct Connect
+• AWS Global Accelerator
+• AWS PrivateLink
+• Amazon Route 53
+• AWS Transit Gateway
+• Amazon VPC
+• AWS VPN
+• AWS Site-to-Site VPN
+• AWS Client VPN
+Segurança, identidade e conformidade:
+• AWS Artifact
+• AWS Audit Manager
+• AWS Certificate Manager (ACM)
+• AWS CloudHSM
+• Amazon Cognito
+• Amazon Detective
+• AWS Directory Service
+• AWS Firewall Manager
+• Amazon GuardDuty
+• AWS Identity and Access Management (AWS IAM)
+• Centro de Identidade do AWS IAM
+• Amazon Inspector
+• AWS Key Management Service (AWS KMS)
+• Amazon Macie
+• AWS Resource Access Manager (AWS RAM)
+• AWS Secrets Manager
+• AWS Security Hub
+• AWS Shield
+• AWS WAF
+Sem servidor:
+• AWS Fargate
+• AWS Lambda
+Armazenamento:
+• AWS Backup
+• Amazon Elastic Block Store (Amazon EBS)
+• Amazon Elastic File System (Amazon EFS)
+• AWS Elastic Disaster Recovery
+• Amazon FSx
+• Amazon S3
+• Amazon S3 Glacier
+• AWS Storage Gateway
